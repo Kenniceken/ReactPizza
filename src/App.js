@@ -1,6 +1,7 @@
 import React from 'react';
 import { createGlobalStyle } from 'styled-components'
 import { Menu} from "./Menu/Menu";
+import { Jumbotron } from "./Jumbotron/Jumbotron";
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -17,6 +18,7 @@ function App() {
       <>
     <GlobalStyle />
     <Menu/>
+    <Jumbotron/>
     <div>
       <h4>Welcome to React Pizza App!!</h4>
     </div>
