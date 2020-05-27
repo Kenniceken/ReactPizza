@@ -1,6 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> This is a VLVL Yummi Pizza React Application Task to be completed within 6 days
 
-## Available Scripts
+### Requirements
 
 In the project directory, you can run:
 
