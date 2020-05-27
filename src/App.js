@@ -1,10 +1,11 @@
 import React from 'react';
 import { createGlobalStyle } from 'styled-components'
+import { Menu} from "./Menu/Menu";
 
 const GlobalStyle = createGlobalStyle`
   body {
+    margin: 0;
     font-family: 'Exo', sans-serif;
-    font-weight: 300;
   }
   h1, h2, h3 {
     font-family: 'Ubuntu', sans-serif;
@@ -14,8 +15,8 @@ const GlobalStyle = createGlobalStyle`
 function App() {
   return (
       <>
-    <h1>React Pizza</h1>
     <GlobalStyle />
+    <Menu/>
     <div>
       <h4>Welcome to React Pizza App!!</h4>
     </div>

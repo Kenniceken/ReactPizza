@@ -1,0 +1,1 @@
+export const yummiPizzacolor = "#035aa6";
